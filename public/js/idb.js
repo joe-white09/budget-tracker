@@ -26,6 +26,7 @@ function saveRecord(record) {
   
     // add record to your store with add method.
     budgetObjectStore.add(record);
+    alert("No Internet Connection! Transaction saved for later!");
 }
 
 function uploadTransaction() {
